@@ -76,9 +76,7 @@ h6 {
   background: rgba(25, 28, 31, 0.8);
 }
 
-#header.header-transparent {
-  background: transparent;
-}
+
 
 #header.header-scrolled {
   height: 60px;
@@ -468,64 +466,7 @@ section {
   min-height: 500px;
 }
 /*--------------------------------------------------------------
-# My Resume
---------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #3b434a;
-}
 
-.resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #82909c;
-  position: relative;
-}
-
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #ffb727;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item h5 {
-  font-size: 16px;
-  background: #eef0f2;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item ul {
-  padding-left: 20px;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #82909c;
-}
 
 
 /*--------------------------------------------------------------
@@ -654,8 +595,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #f30000;
-  border-color: #000000;
+  color: #ffffff;
+  border-color: #865dff;
 }
 
 .portfolio .portfolio-item {
@@ -708,7 +649,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #ffc041;
+  color: #191825;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -744,12 +685,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffb727;
+  border: 1px solid #ffffff;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffb727;
-}
+
 
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -911,4 +850,45 @@ hr {
 }
 .logos{
   margin-top: 30px;
+}
+
+.musica .image {
+  background: url("../img/pop.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+.musica1 .image1 {
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.musica2 .image2 {
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.musica3 .image3 {
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.letra{
+  transform: translate(500px, -500px);
+}
+.interpretacao{
+  transform: translate(980px, -1060px);
+  text-align: justify;
+
+}
+.interpretacao-2{
+  transform: translate(980px, -973px);
+  text-align: justify;
+}
+.interpretacao-3{
+  transform: translate(970px, -780px);
+  text-align: justify;
+
 }
