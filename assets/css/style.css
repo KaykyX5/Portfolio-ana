@@ -853,9 +853,7 @@ hr {
 }
 
 .musica .image {
-  background: url("../img/pop.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 500px;
+ transform: translate(100px);
 }
 .musica1 .image1 {
   float: left; /* Flutuar a imagem para a esquerda */
@@ -879,16 +877,50 @@ hr {
   transform: translate(500px, -500px);
 }
 .interpretacao{
-  transform: translate(980px, -1060px);
+  transform: translate(850px, -1070px);
   text-align: justify;
+  width: 500px;
 
 }
 .interpretacao-2{
   transform: translate(980px, -973px);
   text-align: justify;
+  width: 500px;
 }
 .interpretacao-3{
   transform: translate(970px, -780px);
   text-align: justify;
+  width: 500px;
+  
 
+}
+.sonhos .sonho1{
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.sonhos .lsonho1{
+  transform: translate(500px, -500px);
+  width: 500px;
+}
+.sonhos .sonho2{
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.sonhos .lsonho2{
+  transform: translate(500px, -500px);
+  width: 500px;
+}
+.sonhos .sonho3{
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.sonhos .lsonho3{
+  transform: translate(500px, -500px);
+  width: 500px;
 }
