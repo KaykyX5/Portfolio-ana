@@ -458,10 +458,10 @@ section {
   }
 }
 /*--------------------------------------------------------------
-# About Me
+# QUEM EU SOU
 -------------------------------------------------------------*/
 .about .image {
-  background: url("../img/anaclara1.jpeg") center center no-repeat;
+  background: url("../img/Quem\ sou\ eu.png") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
