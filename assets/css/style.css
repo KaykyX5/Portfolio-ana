@@ -924,3 +924,35 @@ hr {
   transform: translate(500px, -500px);
   width: 500px;
 }
+
+/*MEDOS*/
+.medo1{
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.lmedo1{
+  transform: translate(500px, -500px);
+  width: 500px;
+}
+.medo2{
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.lmedo2{
+  transform: translate(500px, -500px);
+  width: 500px;
+}
+.medo3{
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 500px;
+  width: 440px; /* Definir a largura da imagem */
+  margin-right: 20px;
+}
+.lmedo3{
+  transform: translate(500px, -500px);
+  width: 500px;
+}
