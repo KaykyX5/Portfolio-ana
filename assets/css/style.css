@@ -9,6 +9,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*p{
+  font-size: 20px;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
@@ -874,10 +877,10 @@ hr {
   margin-right: 20px;
 }
 .letra{
-  transform: translate(500px, -500px);
+  transform: translate(480px, -500px);
 }
 .interpretacao{
-  transform: translate(850px, -1070px);
+  transform: translate(855px, -1070px);
   text-align: justify;
   width: 500px;
 
@@ -896,33 +899,36 @@ hr {
 }
 .sonhos .sonho1{
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 500px;
-  width: 440px; /* Definir a largura da imagem */
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
   margin-right: 20px;
 }
 .sonhos .lsonho1{
-  transform: translate(500px, -500px);
+  transform: translate(500px, -400px);
   width: 500px;
+  font-size: 20px;
 }
 .sonhos .sonho2{
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 500px;
-  width: 440px; /* Definir a largura da imagem */
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
   margin-right: 20px;
 }
 .sonhos .lsonho2{
-  transform: translate(500px, -500px);
+  transform: translate(500px, -400px);
   width: 500px;
+  font-size: 20px;
 }
 .sonhos .sonho3{
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 500px;
-  width: 440px; /* Definir a largura da imagem */
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
   margin-right: 20px;
 }
 .sonhos .lsonho3{
-  transform: translate(500px, -500px);
+  transform: translate(500px, -400px);
   width: 500px;
+  font-size: 20px;
 }
 
 /*MEDOS*/
@@ -933,29 +939,31 @@ hr {
   margin-right: 20px;
 }
 .lmedo1{
-  transform: translate(500px, -440px);
+  transform: translate(500px, -410px);
   width: 500px;
   font-size: 20px;
 }
 .medo2{
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 500px;
-  width: 440px; /* Definir a largura da imagem */
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
   margin-right: 20px;
 }
 .lmedo2{
-  transform: translate(500px, -500px);
+  transform: translate(500px, -400px);
   width: 500px;
+  font-size: 20px;
 }
 .medo3{
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 500px;
-  width: 440px; /* Definir a largura da imagem */
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
   margin-right: 20px;
 }
 .lmedo3{
-  transform: translate(500px, -500px);
+  transform: translate(500px, -400px);
   width: 500px;
+  font-size: 20px;
 }
 
 
