@@ -860,33 +860,33 @@ hr {
 }
 .musica1 .image1 {
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 500px;
-  width: 440px; /* Definir a largura da imagem */
-  margin-right: 20px;
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .musica2 .image2 {
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 500px;
-  width: 440px; /* Definir a largura da imagem */
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
   margin-right: 20px;
 }
 .musica3 .image3 {
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 500px;
-  width: 440px; /* Definir a largura da imagem */
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
   margin-right: 20px;
 }
 .letra{
-  transform: translate(480px, -500px);
+  transform: translate(420px, -400px);
 }
 .interpretacao{
-  transform: translate(855px, -1070px);
+  transform: translate(750px, -970px);
   text-align: justify;
   width: 500px;
 
 }
 .interpretacao-2{
-  transform: translate(980px, -973px);
+  transform: translate(950px, -860px);
   text-align: justify;
   width: 500px;
 }
