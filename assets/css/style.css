@@ -989,3 +989,15 @@ hr {
   width: 500px;
   font-size: 20px;
 }
+.livro{
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 2;
+}
+.tlivro{
+  transform: translate(500px, -410px);
+  width: 900px;
+  font-size: 20px;
+  text-align: justify;
+}
