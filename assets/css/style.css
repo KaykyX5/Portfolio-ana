@@ -982,34 +982,34 @@ hr {
 
 .literatura1{
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 400px;
-  width: 400px; /* Definir a largura da imagem */
+  height: 300px;
+  width: 300px; /* Definir a largura da imagem */
   margin-right: 2;
 }
 .tliteratura1{
-  transform: translate(500px, -410px);
+  transform: translate(400px, -310px);
   width: 500px;
   font-size: 20px;
 }
 .literatura2{
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 400px;
-  width: 400px; /* Definir a largura da imagem */
+  height: 300px;
+  width: 300px; /* Definir a largura da imagem */
   margin-right: 2;
 }
 .tliteratura2{
-  transform: translate(500px, -410px);
+  transform: translate(400px, -310px);
   width: 500px;
   font-size: 20px;
 }
 .livro{
   float: left; /* Flutuar a imagem para a esquerda */
-  height: 400px;
-  width: 400px; /* Definir a largura da imagem */
+  height: 300px;
+  width: 300px; /* Definir a largura da imagem */
   margin-right: 2;
 }
 .tlivro{
-  transform: translate(500px, -410px);
+  transform: translate(400px, -310px);
   width: 700px;
   font-size: 20px;
   text-align: justify;
@@ -1025,4 +1025,15 @@ hr {
   height: 400px;
   width: 400px; /* Definir a largura da imagem */
   margin-right: 2;
+}
+.eventos{
+  float: left; /* Flutuar a imagem para a esquerda */
+  height: 300px;
+  width: 300px; /* Definir a largura da imagem */
+  margin-right: 2;
+}
+.teventos{
+  transform: translate(400px, -300px);
+  width: 500px;
+  font-size: 20px;
 }
