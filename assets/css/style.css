@@ -911,37 +911,37 @@ hr {
 
 }
 .sonhos .sonho1{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 20px;
+  transform: translate(200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .sonhos .lsonho1{
-  transform: translate(400px, -300px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
   text-align: justify;
 }
 .sonhos .sonho2{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 20px;
+  transform: translate(200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .sonhos .lsonho2{
-  transform: translate(400px, -300px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
   text-align: justify;
 }
 .sonhos .sonho3{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 20px;
+  transform: translate(200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .sonhos .lsonho3{
-  transform: translate(400px, -300px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
   text-align: justify;
@@ -949,37 +949,37 @@ hr {
 
 /*MEDOS*/
 .medo1{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 20px;
+  transform: translate(200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .lmedo1{
-  transform: translate(400px, -300px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
   text-align: justify;
 }
 .medo2{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 20px;
+  transform: translate(200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .lmedo2{
-  transform: translate(400px, -300px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
   text-align: justify;
 }
 .medo3{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 20px;
+  transform: translate(200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .lmedo3{
-  transform: translate(400px, -300px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
   text-align: justify;
@@ -987,24 +987,24 @@ hr {
 
 
 .literatura1{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 2;
+  transform: translate(-200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .tliteratura1{
-  transform: translate(400px, -310px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
 }
 .literatura2{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 2;
+  transform: translate(-200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .tliteratura2{
-  transform: translate(400px, -310px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
 }
@@ -1033,13 +1033,37 @@ hr {
   margin-right: 2;
 }
 .eventos{
-  float: left; /* Flutuar a imagem para a esquerda */
-  height: 300px;
-  width: 300px; /* Definir a largura da imagem */
-  margin-right: 2;
+  transform: translate(-200px, 0px);
+  height: 400px;
+  width: 400px; /* Definir a largura da imagem */
+  margin-right: 10px;
 }
 .teventos{
-  transform: translate(400px, -300px);
+  transform: translate(700px, -400px);
   width: 500px;
   font-size: 20px;
 }
+
+
+.swiffy-slider img {
+  width: 100%; /* Define a largura da imagem como 100% para ocupar todo o contêiner */
+  height: 600px; /* Mantém a proporção da imagem */
+   /* Mantém a proporção e corta a imagem para ajustar ao contêiner */
+}
+.slider-nav,
+  .slider-nav-next,
+  .slider-indicators button {
+    background-color: #865dff2c; /* Define a cor de fundo como roxa */
+    border: none; /* Remove as bordas dos botões */
+    color: white; /* Define a cor do texto como branco */
+    padding: 2px; /* Adiciona um preenchimento interno aos botões */
+    margin: 2px; /* Adiciona uma margem aos botões */
+    cursor: pointer; /* Adiciona um indicador de cursor quando hover */
+    border-radius: 2px; /* Adiciona bordas arredondadas */
+  }
+
+  /* Adicione estilo para o botão ativo nos indicadores */
+  .slider-indicators button.active {
+    background-color: #5a0a9b; /* Cor de fundo branca para o botão ativo */
+    color: purple; /* Cor do texto roxa para o botão ativo */
+  }
