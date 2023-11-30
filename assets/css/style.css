@@ -1081,7 +1081,7 @@ hr {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -200px);
+    transform: translate(-50%, -160px);
     color: rgb(0, 0, 0); /* Cor do texto sobre a imagem */
     font-size: 25px; /* Tamanho da fonte do texto */
     font-weight: bold; /* Peso da fonte do texto */
