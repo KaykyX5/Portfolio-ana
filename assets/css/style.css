@@ -1067,3 +1067,23 @@ hr {
     background-color: #5a0a9b; /* Cor de fundo branca para o botão ativo */
     color: purple; /* Cor do texto roxa para o botão ativo */
   }
+
+  .swiffy-slider .slider-container {
+    position: relative;
+}
+
+.swiffy-slider .slider-item {
+    position: relative;
+    text-align: center;
+}
+
+.swiffy-slider .slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200px);
+    color: rgb(0, 0, 0); /* Cor do texto sobre a imagem */
+    font-size: 25px; /* Tamanho da fonte do texto */
+    font-weight: bold; /* Peso da fonte do texto */
+    text-shadow: 2px 2px 2px rgba(109, 109, 109, 0.5); /* Sombra do texto para melhor legibilidade */
+}
